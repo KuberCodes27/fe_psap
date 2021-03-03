@@ -6,10 +6,11 @@
 //Function to recursively call Fibonacci term
 
 int fibo(int N){
+    // Fibonacci series : 1, 1, 2, 3, 5, 8...
 if(N==1 || N==2)
-    return 1;
+    return 1;                            // If N=1 or 2, return 1
 else
-    return (fibo(N-1) + fibo(N-2));
+    return (fibo(N-1) + fibo(N-2));      // Use the following mathematical identity: Fn = Fn-1 + Fn-2 
 
 }
 
